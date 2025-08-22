@@ -1,8 +1,8 @@
 import { Dimensions, StyleSheet, Text, View } from "react-native";
 
-
 const { width, height } = Dimensions.get("screen");
 
+// Note: In app.js , change the "scheme" to match your project name.
 const Home = () => {
   return (
     <View

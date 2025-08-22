@@ -1,6 +1,6 @@
 {
   "name": "nextjs-nativewind",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Expo template with Expo Router (Next.js-style routing) and NativeWind preconfigured.",
   "keywords": [
     "expo",
