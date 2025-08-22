@@ -1,5 +1,6 @@
 {
   "expo": {
+    "scheme": "myapp",
     "name": "nextjs_javascrpit",
     "slug": "nextjs_javascrpit",
     "version": "1.0.0",
