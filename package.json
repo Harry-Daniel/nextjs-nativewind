@@ -1,6 +1,8 @@
 {
-  "name": "nextjs_javascript",
+  "name": "nextjs-nativewind",
   "version": "1.0.0",
+  "description": "Expo template with Expo Router (Next.js-style routing) and NativeWind preconfigured.",
+  "keywords": ["expo", "template", "nativewind", "nextjs", "javascript"],
   "main": "expo-router/entry",
   "scripts": {
     "start": "expo start",
@@ -17,7 +19,7 @@
     "expo-status-bar": "~2.2.3",
     "nativewind": "^4.1.23",
     "prettier-plugin-tailwindcss": "^0.5.14",
-    "react": "19.0.0",
+    "react": "18.2.0",
     "react-native": "0.79.5",
     "react-native-reanimated": "~3.17.4",
     "react-native-safe-area-context": "^5.4.0",
@@ -27,5 +29,14 @@
   "devDependencies": {
     "@babel/core": "^7.20.0"
   },
-  "private": true
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Harry-Daniel/nextjs-nativewind.git"
+  },
+  "author": {
+    "name": "Mawuko Senyo Hayibor",
+    "email": "hayiborkomla@gmail.com",
+    "url": "https://github.com/Harry-Daniel"
+  }
 }

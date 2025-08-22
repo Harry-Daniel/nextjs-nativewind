@@ -1,8 +1,8 @@
 {
   "expo": {
-    "scheme": "myapp",
-    "name": "nextjs_javascript",
-    "slug": "nextjs_javascript",
+    "scheme": "{{{ projectName }}}",
+    "name": "{{{ projectName }}}",
+    "slug": "{{{ projectName }}}",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/msh.png",
