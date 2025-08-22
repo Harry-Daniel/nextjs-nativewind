@@ -5,11 +5,11 @@
     "slug": "nextjs_javascript",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/msh.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/msh.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
