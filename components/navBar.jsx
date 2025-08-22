@@ -29,14 +29,14 @@ const NavBar = () => {
             <AntDesign
               name="home"
               size={20}
-              color={pathname === homePathname ? "#ccc9c9" : "white"}
+              color={pathname === homePathname ? "white":"#ccc9c9" }
             />
-            <Text className={`${pathname===homePathname?"text-[#ccc9c9]":"text-white"} text-xs`}> Home</Text>
+            <Text className={`${pathname===homePathname?"text-white":"text-[#ccc9c9]"} text-xs`}> Home</Text>
           </TouchableOpacity>
         </View>
         <View>
           <TouchableOpacity onPress={()=>handlePress("/profile")} className="justify-center items-center gap-1">
-            <AntDesign name="user" size={20} color={pathname === profilePathname ? "#ccc9c9" : "white"} />
+            <AntDesign name="user" size={20} color={pathname === profilePathname ?"white": "#ccc9c9" } />
             <Text className={`${pathname===profilePathname?"text-[#ccc9c9]":"text-white"} text-xs`}>  Profile</Text>
           </TouchableOpacity>
         </View>
