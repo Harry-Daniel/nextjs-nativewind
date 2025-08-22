@@ -1,4 +1,5 @@
 import { Dimensions, StyleSheet, Text, View } from "react-native";
+import NavBar from "../components/navBar";
 
 const { width, height } = Dimensions.get("screen");
 
@@ -11,6 +12,7 @@ const Home = () => {
       <View>
         <Text className="text-gray-500">Welcome to the Home Page!</Text>
       </View>
+      <NavBar />
     </View>
   );
 };
