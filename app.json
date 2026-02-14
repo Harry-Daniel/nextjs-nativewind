@@ -1,8 +1,8 @@
 {
   "expo": {
-    "scheme": "{{{ projectName }}}",
-    "name": "{{{ projectName }}}",
-    "slug": "{{{ projectName }}}",
+    "name": "My App",
+    "slug": "my-app",
+    "scheme": ["myapp"],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/msh.png",
@@ -27,9 +27,6 @@
       "bundler": "metro",
       "favicon": "./assets/favicon.png"
     },
-    "plugins": [
-      "expo-router",
-      "expo-font"
-    ]
+    "plugins": ["expo-router", "expo-font"]
   }
 }
