@@ -15,7 +15,7 @@ A **medium-weight Expo template** preconfigured with:
 Create a new Expo app using this template:
 
 ```bash
-npx create-expo-app my-app --template https://github.com/Harry-Daniel/nextjs-nativewind
+npx create-expo-app <name of app> --template https://github.com/Harry-Daniel/nextjs-nativewind
 
 
 
